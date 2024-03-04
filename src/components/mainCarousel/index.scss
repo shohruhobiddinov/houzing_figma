@@ -1,0 +1,267 @@
+.mainCarousel{
+  .page1 {
+    width: 100%;
+    height: 80vh;
+    background-image: url("../../assets/unsplash_2gDwlIim3Uw.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    .blur{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.49);
+      padding-top: 5%;
+      h1{
+        font-size: 300%;
+      }
+      h4{
+        margin: 10px 0;
+      }
+      .cards{
+        display: flex;
+        width: 30%;
+        margin: 15px auto;
+        align-items: center;
+        justify-content: space-between;
+        .card{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          img{
+            width: 40%;
+          }
+        }
+      }
+      .button{
+        border-radius: 0;
+        color: white;
+        background-color: transparent;
+        padding: 1% 5% 3% 5%;
+        margin-top: 30px;
+        font-weight: bold;
+        border: 2px solid white;
+      }
+      .navbarBottom{
+        display: none;
+      }
+    }
+  }
+  .page2 {
+    width: 100%;
+    height: 80vh;
+    background-image: url("../../assets/img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    .blur{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.49);
+      padding-top: 5%;
+      h1{
+        font-size: 300%;
+      }
+      h4{
+        margin: 10px 0;
+      }
+      .cards{
+        display: flex;
+        width: 30%;
+        margin: 15px auto;
+        align-items: center;
+        justify-content: space-between;
+        .card{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          img{
+            width: 40%;
+          }
+        }
+      }
+      .button{
+        border-radius: 0;
+        color: white;
+        background-color: transparent;
+        padding: 1% 5% 3% 5%;
+        margin-top: 30px;
+        font-weight: bold;
+        border: 2px solid white;
+      }
+      .navbarBottom{
+        display: none;
+      }
+    }
+  }
+  .page3 {
+    width: 100%;
+    height: 80vh;
+    background-image: url("../../assets/img (1).png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    .blur{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.49);
+      padding-top: 5%;
+      h1{
+        font-size: 300%;
+      }
+      h4{
+        margin: 10px 0;
+      }
+      .cards{
+        display: flex;
+        width: 30%;
+        margin: 15px auto;
+        align-items: center;
+        justify-content: space-between;
+        .card{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          img{
+            width: 40%;
+          }
+        }
+      }
+      .button{
+        border-radius: 0;
+        color: white;
+        background-color: transparent;
+        padding: 1% 5% 3% 5%;
+        margin-top: 30px;
+        font-weight: bold;
+        border: 2px solid white;
+      }
+      .navbarBottom{
+        display: none;
+      }
+    }
+  }
+  .page4 {
+    width: 100%;
+    height: 80vh;
+    background-image: url("../../assets/img (2).png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    .blur{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.49);
+      padding-top: 5%;
+      h1{
+        font-size: 300%;
+      }
+      h4{
+        margin: 10px 0;
+      }
+      .cards{
+        display: flex;
+        width: 30%;
+        margin: 15px auto;
+        align-items: center;
+        justify-content: space-between;
+        .card{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          img{
+            width: 40%;
+          }
+        }
+      }
+      .button{
+        border-radius: 0;
+        color: white;
+        background-color: transparent;
+        padding: 1% 5% 3% 5%;
+        margin-top: 30px;
+        font-weight: bold;
+        border: 2px solid white;
+      }
+      .navbarBottom{
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainCarousel{
+    .page1, .page2, .page3, .page4{
+      height: 100vh;
+      background-size: 250% 100%;
+      .blur{
+        padding-top: 10%;
+        .cards{
+          width: 80%;
+          .card{
+            img{
+              width: 60%;
+              margin-bottom: 10px;
+            }
+          }
+        }
+        .button{
+          padding: 2% 7% 8% 7%;
+        }
+        .navbarBottom{
+          display: block;
+          width: 80%;
+          height: 30%;
+          margin: 25px auto;
+          background-color: white;
+          padding: 5%;
+          .input{
+            border: none;
+            border-radius: 0;
+            border-bottom: 1px solid gray;
+            width: 100%;
+            height: 20%;
+          }
+          .buttons{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .button{
+              width: 45%;
+              color: black;
+              display: flex;
+              align-items: center;
+              border: 1px solid black;
+              padding-top: 7%;
+              &:nth-child(1){
+                border: 1px solid #0061DF;
+                color: #0061DF;
+              }
+              &:nth-child(2){
+                border: 1px solid #0061DF;
+                background-color: #0061DF;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

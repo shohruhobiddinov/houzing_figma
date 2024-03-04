@@ -1,0 +1,87 @@
+.recommended {
+  width: 90%;
+  margin: 50px auto;
+}
+.recommended .text {
+  width: 100%;
+  text-align: center;
+}
+.recommended .text h1 {
+  font-weight: 500;
+}
+.recommended .text p {
+  color: gray;
+  margin: 20px 0;
+}
+.recommended .cards {
+  width: 100%;
+  display: flex !important;
+  justify-content: space-between;
+}
+.recommended .cards .cardOutside {
+  position: relative;
+  width: 32%;
+}
+.recommended .cards .cardOutside .cards {
+  display: flex;
+  width: 100%;
+  margin: 15px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.recommended .cards .cardOutside .cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.recommended .cards .cardOutside .cards .card img {
+  width: 40%;
+}
+.recommended .cards .cardOutside .avatar {
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 42%;
+  right: 5%;
+}
+.recommended .cards .cardOutside .featured {
+  width: 20%;
+  position: absolute;
+  top: 4%;
+  left: 5%;
+}
+.recommended .cards .cardOutside .sale {
+  width: 20%;
+  position: absolute;
+  top: 4%;
+  right: 5%;
+}
+.recommended .cards .cardOutside .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+  background-color: white;
+  color: black;
+  padding: 0;
+}
+.recommended .cards .cardOutside .footer .icons {
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .recommended .cards {
+    flex-wrap: wrap;
+  }
+  .recommended .cards .cardOutside {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .recommended .cards .cardOutside .avatar {
+    top: 40%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

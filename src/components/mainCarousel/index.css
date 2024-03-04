@@ -1,0 +1,264 @@
+.mainCarousel .page1 {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../../assets/unsplash_2gDwlIim3Uw.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.mainCarousel .page1 .blur {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.49);
+  padding-top: 5%;
+}
+.mainCarousel .page1 .blur h1 {
+  font-size: 300%;
+}
+.mainCarousel .page1 .blur h4 {
+  margin: 10px 0;
+}
+.mainCarousel .page1 .blur .cards {
+  display: flex;
+  width: 30%;
+  margin: 15px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainCarousel .page1 .blur .cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainCarousel .page1 .blur .cards .card img {
+  width: 40%;
+}
+.mainCarousel .page1 .blur .button {
+  border-radius: 0;
+  color: white;
+  background-color: transparent;
+  padding: 1% 5% 3% 5%;
+  margin-top: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+}
+.mainCarousel .page1 .blur .navbarBottom {
+  display: none;
+}
+.mainCarousel .page2 {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../../assets/img.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.mainCarousel .page2 .blur {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.49);
+  padding-top: 5%;
+}
+.mainCarousel .page2 .blur h1 {
+  font-size: 300%;
+}
+.mainCarousel .page2 .blur h4 {
+  margin: 10px 0;
+}
+.mainCarousel .page2 .blur .cards {
+  display: flex;
+  width: 30%;
+  margin: 15px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainCarousel .page2 .blur .cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainCarousel .page2 .blur .cards .card img {
+  width: 40%;
+}
+.mainCarousel .page2 .blur .button {
+  border-radius: 0;
+  color: white;
+  background-color: transparent;
+  padding: 1% 5% 3% 5%;
+  margin-top: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+}
+.mainCarousel .page2 .blur .navbarBottom {
+  display: none;
+}
+.mainCarousel .page3 {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../../assets/img (1).png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.mainCarousel .page3 .blur {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.49);
+  padding-top: 5%;
+}
+.mainCarousel .page3 .blur h1 {
+  font-size: 300%;
+}
+.mainCarousel .page3 .blur h4 {
+  margin: 10px 0;
+}
+.mainCarousel .page3 .blur .cards {
+  display: flex;
+  width: 30%;
+  margin: 15px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainCarousel .page3 .blur .cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainCarousel .page3 .blur .cards .card img {
+  width: 40%;
+}
+.mainCarousel .page3 .blur .button {
+  border-radius: 0;
+  color: white;
+  background-color: transparent;
+  padding: 1% 5% 3% 5%;
+  margin-top: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+}
+.mainCarousel .page3 .blur .navbarBottom {
+  display: none;
+}
+.mainCarousel .page4 {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../../assets/img (2).png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.mainCarousel .page4 .blur {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.49);
+  padding-top: 5%;
+}
+.mainCarousel .page4 .blur h1 {
+  font-size: 300%;
+}
+.mainCarousel .page4 .blur h4 {
+  margin: 10px 0;
+}
+.mainCarousel .page4 .blur .cards {
+  display: flex;
+  width: 30%;
+  margin: 15px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainCarousel .page4 .blur .cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainCarousel .page4 .blur .cards .card img {
+  width: 40%;
+}
+.mainCarousel .page4 .blur .button {
+  border-radius: 0;
+  color: white;
+  background-color: transparent;
+  padding: 1% 5% 3% 5%;
+  margin-top: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+}
+.mainCarousel .page4 .blur .navbarBottom {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .mainCarousel .page1, .mainCarousel .page2, .mainCarousel .page3, .mainCarousel .page4 {
+    height: 100vh;
+    background-size: 250% 100%;
+  }
+  .mainCarousel .page1 .blur, .mainCarousel .page2 .blur, .mainCarousel .page3 .blur, .mainCarousel .page4 .blur {
+    padding-top: 10%;
+  }
+  .mainCarousel .page1 .blur .cards, .mainCarousel .page2 .blur .cards, .mainCarousel .page3 .blur .cards, .mainCarousel .page4 .blur .cards {
+    width: 80%;
+  }
+  .mainCarousel .page1 .blur .cards .card img, .mainCarousel .page2 .blur .cards .card img, .mainCarousel .page3 .blur .cards .card img, .mainCarousel .page4 .blur .cards .card img {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  .mainCarousel .page1 .blur .button, .mainCarousel .page2 .blur .button, .mainCarousel .page3 .blur .button, .mainCarousel .page4 .blur .button {
+    padding: 2% 7% 8% 7%;
+  }
+  .mainCarousel .page1 .blur .navbarBottom, .mainCarousel .page2 .blur .navbarBottom, .mainCarousel .page3 .blur .navbarBottom, .mainCarousel .page4 .blur .navbarBottom {
+    display: block;
+    width: 80%;
+    height: 30%;
+    margin: 25px auto;
+    background-color: white;
+    padding: 5%;
+  }
+  .mainCarousel .page1 .blur .navbarBottom .input, .mainCarousel .page2 .blur .navbarBottom .input, .mainCarousel .page3 .blur .navbarBottom .input, .mainCarousel .page4 .blur .navbarBottom .input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 20%;
+  }
+  .mainCarousel .page1 .blur .navbarBottom .buttons, .mainCarousel .page2 .blur .navbarBottom .buttons, .mainCarousel .page3 .blur .navbarBottom .buttons, .mainCarousel .page4 .blur .navbarBottom .buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mainCarousel .page1 .blur .navbarBottom .buttons .button, .mainCarousel .page2 .blur .navbarBottom .buttons .button, .mainCarousel .page3 .blur .navbarBottom .buttons .button, .mainCarousel .page4 .blur .navbarBottom .buttons .button {
+    width: 45%;
+    color: black;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding-top: 7%;
+  }
+  .mainCarousel .page1 .blur .navbarBottom .buttons .button:nth-child(1), .mainCarousel .page2 .blur .navbarBottom .buttons .button:nth-child(1), .mainCarousel .page3 .blur .navbarBottom .buttons .button:nth-child(1), .mainCarousel .page4 .blur .navbarBottom .buttons .button:nth-child(1) {
+    border: 1px solid #0061DF;
+    color: #0061DF;
+  }
+  .mainCarousel .page1 .blur .navbarBottom .buttons .button:nth-child(2), .mainCarousel .page2 .blur .navbarBottom .buttons .button:nth-child(2), .mainCarousel .page3 .blur .navbarBottom .buttons .button:nth-child(2), .mainCarousel .page4 .blur .navbarBottom .buttons .button:nth-child(2) {
+    border: 1px solid #0061DF;
+    background-color: #0061DF;
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

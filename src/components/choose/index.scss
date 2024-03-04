@@ -1,0 +1,45 @@
+.choose{
+  width: 100%;
+  background-color: #F5F7FC;
+  padding: 5% 0;
+  .text {
+    width: 100%;
+    text-align: center;
+
+    h1 {
+      font-weight: 500;
+    }
+
+    p {
+      color: gray;
+      margin: 20px 0;
+    }
+  }
+  .cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    .card{
+      width: 20%;
+      text-align: center;
+      margin-top: 20px;
+      h4{
+        margin: 20px 0;
+        font-weight: 600;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .choose{
+    padding: 10% 0;
+    .cards{
+      flex-wrap: wrap;
+      .card{
+        width: 90%;
+        margin: 10px auto;
+      }
+    }
+  }
+}

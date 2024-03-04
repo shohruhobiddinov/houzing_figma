@@ -1,0 +1,99 @@
+.footer {
+  width: 90%;
+  background-color: #0D263B;
+  padding: 5% 5% 1% 5%;
+  color: white;
+}
+.footer .top {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.footer .top .first {
+  width: 30%;
+}
+.footer .top .first h3 {
+  font-weight: 500;
+}
+.footer .top .first .contact {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  margin: 20px 0;
+}
+.footer .top .first .contact p {
+  color: lightgray;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.footer .top .first .contact p:hover {
+  color: gray;
+}
+.footer .top .first .icons {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.footer .top .first .icons img {
+  transition: 0.5s;
+  width: 17px;
+  height: 19px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.footer .top .first .icons img:hover {
+  cursor: pointer;
+  background-color: #253B4E;
+}
+.footer .top .card {
+  width: 20%;
+}
+.footer .top .card h3 {
+  font-weight: 500;
+}
+.footer .top .card p {
+  color: lightgray;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.footer .top .card p:hover {
+  color: gray;
+}
+.footer hr {
+  margin: 20px 0;
+}
+.footer .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .footer .top {
+    flex-wrap: wrap;
+    padding: 5%;
+  }
+  .footer .top .first {
+    width: 100%;
+  }
+  .footer .top .first .icons {
+    margin-bottom: 20px;
+  }
+  .footer .top .card {
+    width: 100%;
+  }
+  .footer .bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 5%;
+  }
+  .footer .bottom Button {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
